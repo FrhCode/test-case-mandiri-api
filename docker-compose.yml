@@ -5,8 +5,6 @@ services:
       - POSTGRES_PASSWORD=asdd
     ports:
       - 5432:5432
-    volumes:
-      - pgdata:/var/lib/postgresql/data
   mongodb:
     image: mongo
     environment:
@@ -14,8 +12,6 @@ services:
       - MONGO_INITDB_ROOT_PASSWORD=asdd
     ports:
       - 27017:27017
-    volumes:
-      - mongodata:/data/db
   rabbitmq:
     image: rabbitmq:3-management-alpine
     ports:
@@ -132,7 +128,3 @@ services:
       - 7004:80
     depends_on:
       - rabbitmq
-
-volumes:
-  pgdata:
-  mongodata:
