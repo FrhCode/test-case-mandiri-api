@@ -1,0 +1,720 @@
+[
+  {
+    "Id": "e3a67fc4-3a9d-4e36-890d-d055b26f586f",
+    "Status": "Live",
+    "ReservePrice": 35000,
+    "Seller": "charlie",
+    "AuctionEnd": "2024-11-30T14:25:30Z",
+    "Item": {
+      "Make": "Toyota",
+      "Model": "Camry",
+      "Color": "Blue",
+      "Mileage": 30000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Reliable and fuel-efficient, this blue Toyota Camry is the perfect blend of comfort and practicality, ideal for daily commuting and long road trips."
+    }
+  },
+  {
+    "Id": "f5c4c759-25a9-4524-9377-2c379f67b18d",
+    "Status": "Live",
+    "ReservePrice": 28000,
+    "Seller": "daniel",
+    "AuctionEnd": "2024-09-15T17:30:00Z",
+    "Item": {
+      "Make": "Honda",
+      "Model": "Civic",
+      "Color": "Silver",
+      "Mileage": 25000,
+      "Year": 2022,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Efficient and stylish, this silver Honda Civic offers a smooth ride, modern features, and impressive fuel economy, perfect for city driving."
+    }
+  },
+  {
+    "Id": "2a944787-5c8e-4d71-8aa5-d2b576cf5d78",
+    "Status": "Live",
+    "ReservePrice": 40000,
+    "Seller": "emily",
+    "AuctionEnd": "2024-10-10T08:45:12Z",
+    "Item": {
+      "Make": "Chevrolet",
+      "Model": "Corvette",
+      "Color": "Red",
+      "Mileage": 18000,
+      "Year": 2021,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Experience the thrill of the open road in this red Chevrolet Corvette, a powerful and stylish sports car that commands attention wherever it goes."
+    }
+  },
+  {
+    "Id": "3b3a0cc1-1e2f-42d4-af12-9f6b74318e34",
+    "Status": "Live",
+    "ReservePrice": 60000,
+    "Seller": "frank",
+    "AuctionEnd": "2024-12-05T11:11:11Z",
+    "Item": {
+      "Make": "Lamborghini",
+      "Model": "Huracan",
+      "Color": "Yellow",
+      "Mileage": 7000,
+      "Year": 2020,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Unleash your inner speed demon with this yellow Lamborghini Huracan, a masterpiece of Italian engineering that delivers unparalleled performance and style."
+    }
+  },
+  {
+    "Id": "983bd63d-74f7-438b-8a4a-3c64d96abce3",
+    "Status": "Live",
+    "ReservePrice": 25000,
+    "Seller": "grace",
+    "AuctionEnd": "2024-09-01T16:20:30Z",
+    "Item": {
+      "Make": "Nissan",
+      "Model": "Altima",
+      "Color": "White",
+      "Mileage": 32000,
+      "Year": 2022,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Efficient and spacious, this white Nissan Altima offers a comfortable ride, modern features, and excellent fuel economy, perfect for daily commutes."
+    }
+  },
+  {
+    "Id": "72b8f18a-bfac-4c26-b12c-bbd5f6c66c3c",
+    "Status": "Live",
+    "ReservePrice": 30000,
+    "Seller": "harry",
+    "AuctionEnd": "2024-11-25T19:05:00Z",
+    "Item": {
+      "Make": "Volkswagen",
+      "Model": "Golf",
+      "Color": "Black",
+      "Mileage": 20000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Sleek and sporty, this black Volkswagen Golf offers a dynamic driving experience, practicality, and modern features, perfect for urban adventures."
+    }
+  },
+  {
+    "Id": "6ff7d2bb-4a8b-4f82-84ee-4b787a2747ec",
+    "Status": "Live",
+    "ReservePrice": 50000,
+    "Seller": "irene",
+    "AuctionEnd": "2024-10-20T10:00:00Z",
+    "Item": {
+      "Make": "Porsche",
+      "Model": "911",
+      "Color": "Blue",
+      "Mileage": 15000,
+      "Year": 2021,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Experience the thrill of driving with this blue Porsche 911, a true sports car legend known for its performance, style, and engineering excellence."
+    }
+  },
+  {
+    "Id": "e1e49b7e-f9dc-4594-85a5-05e24e1c0d29",
+    "Status": "Live",
+    "ReservePrice": 35000,
+    "Seller": "jack",
+    "AuctionEnd": "2024-12-15T15:30:00Z",
+    "Item": {
+      "Make": "Tesla",
+      "Model": "Model 3",
+      "Color": "Silver",
+      "Mileage": 10000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Drive into the future with this silver Tesla Model 3, an electric car that combines cutting-edge technology with sleek design, offering an eco-friendly and exhilarating driving experience."
+    }
+  },
+  {
+    "Id": "d2217b79-2cc5-409e-ba7a-961b1969e68a",
+    "Status": "Live",
+    "ReservePrice": 45000,
+    "Seller": "kate",
+    "AuctionEnd": "2024-09-10T12:00:00Z",
+    "Item": {
+      "Make": "Subaru",
+      "Model": "Outback",
+      "Color": "Green",
+      "Mileage": 28000,
+      "Year": 2022,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Adventure awaits with this green Subaru Outback, a versatile SUV that offers spacious comfort, all-terrain capability, and rugged reliability for your outdoor escapades."
+    }
+  },
+  {
+    "Id": "9237edfd-2c02-4cf7-8854-183d7a5c7391",
+    "Status": "Live",
+    "ReservePrice": 38000,
+    "Seller": "lucy",
+    "AuctionEnd": "2024-11-01T18:45:00Z",
+    "Item": {
+      "Make": "Jeep",
+      "Model": "Wrangler",
+      "Color": "Red",
+      "Mileage": 20000,
+      "Year": 2021,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Unleash your adventurous spirit with this red Jeep Wrangler, a rugged and capable off-road vehicle that's ready to conquer any terrain with style and confidence."
+    }
+  },
+  {
+    "Id": "2db57a0d-6da9-438b-9ebf-f598378235a5",
+    "Status": "Live",
+    "ReservePrice": 40000,
+    "Seller": "mike",
+    "AuctionEnd": "2024-09-05T14:30:00Z",
+    "Item": {
+      "Make": "Mazda",
+      "Model": "CX-5",
+      "Color": "White",
+      "Mileage": 22000,
+      "Year": 2022,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Drive in comfort and style with this white Mazda CX-5, a versatile SUV that offers a perfect balance of performance, efficiency, and modern features."
+    }
+  },
+  {
+    "Id": "d2008b0f-04d7-442e-b51e-86e9b92e19a1",
+    "Status": "Live",
+    "ReservePrice": 30000,
+    "Seller": "nancy",
+    "AuctionEnd": "2024-10-25T10:15:00Z",
+    "Item": {
+      "Make": "Ford",
+      "Model": "Explorer",
+      "Color": "Black",
+      "Mileage": 25000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Embark on new adventures with this black Ford Explorer, a spacious and capable SUV that offers comfort, convenience, and confidence on the road."
+    }
+  },
+  {
+    "Id": "c05b17fb-9b1b-4560-8d76-4a0d447d8874",
+    "Status": "Live",
+    "ReservePrice": 32000,
+    "Seller": "oliver",
+    "AuctionEnd": "2024-10-18T16:30:00Z",
+    "Item": {
+      "Make": "Volvo",
+      "Model": "XC60",
+      "Color": "Silver",
+      "Mileage": 18000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Drive in safety and luxury with this silver Volvo XC60, an SUV that combines Scandinavian elegance with advanced safety features and refined comfort."
+    }
+  },
+  {
+    "Id": "5f9fe56a-5e28-4f54-9503-7f5d6c89fb9b",
+    "Status": "Live",
+    "ReservePrice": 28000,
+    "Seller": "peter",
+    "AuctionEnd": "2024-11-30T12:00:00Z",
+    "Item": {
+      "Make": "Kia",
+      "Model": "Sorento",
+      "Color": "Gray",
+      "Mileage": 30000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Enjoy a smooth and comfortable ride with this gray Kia Sorento, an SUV that offers ample space, modern features, and reliable performance for your daily journeys."
+    }
+  },
+  {
+    "Id": "f3041f18-74da-4d23-8361-74e5cb61a4ab",
+    "Status": "Live",
+    "ReservePrice": 38000,
+    "Seller": "quinn",
+    "AuctionEnd": "2024-09-28T15:00:00Z",
+    "Item": {
+      "Make": "Hyundai",
+      "Model": "Tucson",
+      "Color": "Blue",
+      "Mileage": 20000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Experience versatility and reliability with this blue Hyundai Tucson, an SUV that offers a comfortable ride, modern features, and a stylish design for your everyday adventures."
+    }
+  },
+  {
+    "Id": "6d65106d-3d79-4db0-9162-82868d1d399a",
+    "Status": "Live",
+    "ReservePrice": 25000,
+    "Seller": "rachel",
+    "AuctionEnd": "2024-10-15T14:30:00Z",
+    "Item": {
+      "Make": "Buick",
+      "Model": "Encore",
+      "Color": "Red",
+      "Mileage": 22000,
+      "Year": 2022,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Drive in style with this red Buick Encore, a compact SUV that offers a smooth ride, modern features, and versatility for your daily commute or weekend getaways."
+    }
+  },
+  {
+    "Id": "e8b8b8b2-c74f-42d0-a2a7-65fd83c7422c",
+    "Status": "Live",
+    "ReservePrice": 30000,
+    "Seller": "steve",
+    "AuctionEnd": "2024-11-20T18:00:00Z",
+    "Item": {
+      "Make": "Lexus",
+      "Model": "RX",
+      "Color": "Black",
+      "Mileage": 25000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Indulge in luxury with this black Lexus RX, an SUV that combines refined elegance with advanced technology, offering a premium driving experience like no other."
+    }
+  },
+  {
+    "Id": "7503a4c2-12d0-47f6-8d2e-ae8dc3f1525c",
+    "Status": "Live",
+    "ReservePrice": 32000,
+    "Seller": "sophia",
+    "AuctionEnd": "2024-12-10T10:30:00Z",
+    "Item": {
+      "Make": "Infiniti",
+      "Model": "QX60",
+      "Color": "White",
+      "Mileage": 20000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Experience luxury and comfort with this white Infiniti QX60, an SUV that offers spaciousness, elegance, and advanced features for your family's journeys."
+    }
+  },
+  {
+    "Id": "3e61a35a-ace6-4a2b-ae67-5705bf9bca33",
+    "Status": "Live",
+    "ReservePrice": 35000,
+    "Seller": "tyler",
+    "AuctionEnd": "2024-11-05T15:45:00Z",
+    "Item": {
+      "Make": "Lincoln",
+      "Model": "Aviator",
+      "Color": "Silver",
+      "Mileage": 18000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Luxury meets performance in this silver Lincoln Aviator, an SUV that offers sophistication, comfort, and power, making every journey a refined experience."
+    }
+  },
+  {
+    "Id": "24b34d3b-049b-4cb8-a2db-5b9aa60fe17e",
+    "Status": "Live",
+    "ReservePrice": 40000,
+    "Seller": "umberto",
+    "AuctionEnd": "2024-10-15T13:00:00Z",
+    "Item": {
+      "Make": "Land Rover",
+      "Model": "Discovery",
+      "Color": "Gray",
+      "Mileage": 15000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Discover new horizons with this gray Land Rover Discovery, an SUV that blends luxury with off-road capability, offering versatility and refinement for your adventures."
+    }
+  },
+  {
+    "Id": "6b68a7b1-3b3b-4423-87cd-98051db96428",
+    "Status": "Live",
+    "ReservePrice": 45000,
+    "Seller": "vanessa",
+    "AuctionEnd": "2024-11-25T11:00:00Z",
+    "Item": {
+      "Make": "Cadillac",
+      "Model": "Escalade",
+      "Color": "Black",
+      "Mileage": 12000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Elevate your driving experience with this black Cadillac Escalade, a luxurious SUV that offers unmatched comfort, style, and performance for discerning drivers."
+    }
+  },
+  {
+    "Id": "44ae91c2-5a38-4720-b791-c2c2c3c7f572",
+    "Status": "Live",
+    "ReservePrice": 35000,
+    "Seller": "william",
+    "AuctionEnd": "2024-12-05T16:30:00Z",
+    "Item": {
+      "Make": "Acura",
+      "Model": "MDX",
+      "Color": "Blue",
+      "Mileage": 20000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Experience luxury and performance with this blue Acura MDX, an SUV that offers refinement, technology, and comfort, making every drive a pleasure."
+    }
+  },
+  {
+    "Id": "3f409f2e-489a-43f2-b1b2-6eb3ed4dd4ac",
+    "Status": "Live",
+    "ReservePrice": 30000,
+    "Seller": "xavier",
+    "AuctionEnd": "2024-11-15T14:00:00Z",
+    "Item": {
+      "Make": "Mitsubishi",
+      "Model": "Outlander",
+      "Color": "White",
+      "Mileage": 25000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Experience versatility and reliability with this white Mitsubishi Outlander, an SUV that offers comfort, efficiency, and modern features for your daily adventures."
+    }
+  },
+  {
+    "Id": "2f4d1691-4ac2-4c96-a3ee-0d4c48a78615",
+    "Status": "Live",
+    "ReservePrice": 28000,
+    "Seller": "yolanda",
+    "AuctionEnd": "2024-10-28T12:30:00Z",
+    "Item": {
+      "Make": "Genesis",
+      "Model": "GV80",
+      "Color": "Black",
+      "Mileage": 20000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Luxury redefined with this black Genesis GV80, an SUV that offers elegance, innovation, and performance, setting new standards for premium driving experiences."
+    }
+  },
+  {
+    "Id": "ec244315-9b8a-4f52-9865-bdf7d18a86f4",
+    "Status": "Live",
+    "ReservePrice": 32000,
+    "Seller": "zachary",
+    "AuctionEnd": "2024-12-03T16:00:00Z",
+    "Item": {
+      "Make": "Bentley",
+      "Model": "Bentayga",
+      "Color": "Silver",
+      "Mileage": 15000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Experience the epitome of luxury with this silver Bentley Bentayga, an SUV that combines exquisite craftsmanship with cutting-edge technology, offering an unparalleled driving experience."
+    }
+  },
+  {
+    "Id": "da33a425-e459-47ef-87cb-7c87d0f444e0",
+    "Status": "Live",
+    "ReservePrice": 35000,
+    "Seller": "abigail",
+    "AuctionEnd": "2024-11-12T14:30:00Z",
+    "Item": {
+      "Make": "Alfa Romeo",
+      "Model": "Stelvio",
+      "Color": "Red",
+      "Mileage": 18000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Embrace Italian passion with this red Alfa Romeo Stelvio, an SUV that combines performance, style, and heritage, delivering an exhilarating driving experience."
+    }
+  },
+  {
+    "Id": "b0ac1248-7c5b-4418-82a1-ea9bb3545718",
+    "Status": "Live",
+    "ReservePrice": 30000,
+    "Seller": "benjamin",
+    "AuctionEnd": "2024-12-08T10:00:00Z",
+    "Item": {
+      "Make": "Jaguar",
+      "Model": "F-Pace",
+      "Color": "Blue",
+      "Mileage": 22000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Drive with elegance and power in this blue Jaguar F-Pace, an SUV that offers dynamic performance, refined luxury, and advanced technology for a truly rewarding driving experience."
+    }
+  },
+  {
+    "Id": "a7e8d2b9-1d86-4c8b-9383-85d36db3b924",
+    "Status": "Live",
+    "ReservePrice": 28000,
+    "Seller": "cameron",
+    "AuctionEnd": "2024-11-20T16:30:00Z",
+    "Item": {
+      "Make": "Chrysler",
+      "Model": "Pacifica",
+      "Color": "White",
+      "Mileage": 25000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Enjoy family adventures with this white Chrysler Pacifica, a minivan that offers comfort, versatility, and modern features for your everyday journeys."
+    }
+  },
+  {
+    "Id": "a930f4bc-e52e-44e0-ae86-5a9a4f8447ac",
+    "Status": "Live",
+    "ReservePrice": 30000,
+    "Seller": "dylan",
+    "AuctionEnd": "2024-12-15T11:00:00Z",
+    "Item": {
+      "Make": "Maserati",
+      "Model": "Levante",
+      "Color": "Black",
+      "Mileage": 20000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Experience luxury and performance in this black Maserati Levante, an SUV that embodies Italian craftsmanship, style, and exhilarating driving dynamics."
+    }
+  },
+  {
+    "Id": "df67c1c5-0343-48da-8bcf-5e6ad42b2f94",
+    "Status": "Live",
+    "ReservePrice": 35000,
+    "Seller": "emma",
+    "AuctionEnd": "2024-11-25T14:00:00Z",
+    "Item": {
+      "Make": "McLaren",
+      "Model": "GT",
+      "Color": "Orange",
+      "Mileage": 15000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Experience the thrill of driving with this orange McLaren GT, a grand tourer that combines luxury, performance, and exclusivity, delivering an unforgettable driving experience."
+    }
+  },
+  {
+    "Id": "45a59ae2-42fc-4c71-b63d-2614b702050f",
+    "Status": "Live",
+    "ReservePrice": 40000,
+    "Seller": "finn",
+    "AuctionEnd": "2024-12-10T15:30:00Z",
+    "Item": {
+      "Make": "Rolls-Royce",
+      "Model": "Cullinan",
+      "Color": "Black",
+      "Mileage": 12000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Experience the pinnacle of luxury with this black Rolls-Royce Cullinan, an SUV that offers unparalleled comfort, refinement, and prestige, setting the standard for automotive excellence."
+    }
+  },
+  {
+    "Id": "dfe3c12d-53d5-43e0-8c6d-95d1075a44bb",
+    "Status": "Live",
+    "ReservePrice": 32000,
+    "Seller": "gabriel",
+    "AuctionEnd": "2024-11-30T17:00:00Z",
+    "Item": {
+      "Make": "Porsche",
+      "Model": "Cayenne",
+      "Color": "Gray",
+      "Mileage": 18000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Experience the perfect blend of performance and luxury with this gray Porsche Cayenne, an SUV that delivers exhilarating driving dynamics, refined comfort, and timeless style."
+    }
+  },
+  {
+    "Id": "7a85d3b4-5c5d-47f3-884f-59061467b02f",
+    "Status": "Live",
+    "ReservePrice": 35000,
+    "Seller": "hannah",
+    "AuctionEnd": "2024-12-05T11:30:00Z",
+    "Item": {
+      "Make": "Tesla",
+      "Model": "Model Y",
+      "Color": "Blue",
+      "Mileage": 15000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Step into the future with this blue Tesla Model Y, an electric SUV that offers cutting-edge technology, exceptional performance, and sustainable driving for a greener tomorrow."
+    }
+  },
+  {
+    "Id": "a68a0df4-d7a4-4d3d-94e4-9f3302cda2b4",
+    "Status": "Live",
+    "ReservePrice": 38000,
+    "Seller": "ian",
+    "AuctionEnd": "2024-12-15T13:45:00Z",
+    "Item": {
+      "Make": "Toyota",
+      "Model": "Highlander",
+      "Color": "White",
+      "Mileage": 20000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Experience reliability and comfort with this white Toyota Highlander, an SUV that offers spaciousness, versatility, and advanced features for your family's journeys."
+    }
+  },
+  {
+    "Id": "2b2488b2-86a4-4f8b-804e-26b1e6a4b97c",
+    "Status": "Live",
+    "ReservePrice": 35000,
+    "Seller": "jane",
+    "AuctionEnd": "2024-12-20T16:00:00Z",
+    "Item": {
+      "Make": "Volkswagen",
+      "Model": "Tiguan",
+      "Color": "Silver",
+      "Mileage": 18000,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Enjoy the perfect blend of style and functionality with this silver Volkswagen Tiguan, an SUV that offers a comfortable ride, modern features, and German engineering excellence."
+    }
+  },
+  {
+    "Id": "afbee524-5972-4075-8800-7d1f9d7b0a0c",
+    "Status": "Live",
+    "ReservePrice": 20000,
+    "Seller": "bob",
+    "AuctionEnd": "2024-10-15T12:34:56Z",
+    "Item": {
+      "Make": "Ford",
+      "Model": "GT",
+      "Color": "White",
+      "Mileage": 50000,
+      "Year": 2020,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "This sleek Ford GT in pristine white boasts of a powerful engine and a smooth drive, ready to turn heads wherever it goes."
+    }
+  },
+  {
+    "Id": "c8c3ec17-01bf-49db-82aa-1ef80b833a9f",
+    "Status": "Live",
+    "ReservePrice": 90000,
+    "Seller": "alice",
+    "AuctionEnd": "2024-12-21T09:08:07Z",
+    "Item": {
+      "Make": "Bugatti",
+      "Model": "Veyron",
+      "Color": "Black",
+      "Mileage": 15035,
+      "Year": 2018,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "The epitome of luxury and speed, this black Bugatti Veyron combines cutting-edge technology with timeless elegance, promising an unparalleled driving experience."
+    }
+  },
+  {
+    "Id": "bbab4d5a-8565-48b1-9450-5ac2a5c4a654",
+    "Status": "Live",
+    "Seller": "bob",
+    "AuctionEnd": "2024-08-15T04:03:02Z",
+    "Item": {
+      "Make": "Ford",
+      "Model": "Mustang",
+      "Color": "Black",
+      "Mileage": 65125,
+      "Year": 2023,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "With its iconic design and powerful performance, this black Ford Mustang exudes confidence and style, making every journey an exhilarating adventure."
+    }
+  },
+  {
+    "Id": "155225c1-4448-4066-9886-6786536e05ea",
+    "Status": "ReserveNotMet",
+    "ReservePrice": 50000,
+    "Seller": "tom",
+    "AuctionEnd": "2024-09-27T15:14:13Z",
+    "Item": {
+      "Make": "Mercedes",
+      "Model": "SLK",
+      "Color": "Silver",
+      "Mileage": 15001,
+      "Year": 2020,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "The Mercedes SLK in shimmering silver is a blend of luxury and sportiness, offering top-down driving pleasure and unmatched comfort on the road."
+    }
+  },
+  {
+    "Id": "466e4744-4dc5-4987-aae0-b621acfc5e39",
+    "Status": "Live",
+    "ReservePrice": 20000,
+    "Seller": "alice",
+    "AuctionEnd": "2024-11-02T20:19:18Z",
+    "Item": {
+      "Make": "BMW",
+      "Model": "X1",
+      "Color": "White",
+      "Mileage": 90000,
+      "Year": 2017,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Adventure awaits with this white BMW X1, a versatile SUV that effortlessly combines elegance with practicality, perfect for both urban commutes and off-road escapes."
+    }
+  },
+  {
+    "Id": "dc1e4071-d19d-459b-b848-b5c3cd3d151f",
+    "Status": "Live",
+    "ReservePrice": 20000,
+    "Seller": "bob",
+    "AuctionEnd": "2024-11-10T07:06:05Z",
+    "Item": {
+      "Make": "Ferrari",
+      "Model": "Spider",
+      "Color": "Red",
+      "Mileage": 50000,
+      "Year": 2015,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Feel the thrill of the open road in this striking red Ferrari Spider, a masterpiece of Italian engineering that delivers exhilarating performance and timeless style."
+    }
+  },
+  {
+    "Id": "47111973-d176-4feb-848d-0ea22641c31a",
+    "Status": "Live",
+    "ReservePrice": 150000,
+    "Seller": "alice",
+    "AuctionEnd": "2024-09-19T03:02:01Z",
+    "Item": {
+      "Make": "Ferrari",
+      "Model": "F-430",
+      "Color": "Red",
+      "Mileage": 5000,
+      "Year": 2022,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Own a piece of automotive history with this stunning red Ferrari F-430, a true collector's dream with its blend of beauty, power, and precision craftsmanship."
+    }
+  },
+  {
+    "Id": "6a5011a1-fe1f-47df-9a32-b5346b289391",
+    "Status": "Live",
+    "Seller": "bob",
+    "AuctionEnd": "2024-08-28T22:21:20Z",
+    "Item": {
+      "Make": "Audi",
+      "Model": "R8",
+      "Color": "White",
+      "Mileage": 10050,
+      "Year": 2021,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Experience the ultimate in luxury and performance with the Audi R8 in pristine white, a masterpiece of engineering that offers unmatched speed and refinement."
+    }
+  },
+  {
+    "Id": "40490065-dac7-46b6-acc4-df507e0d6570",
+    "Status": "Live",
+    "ReservePrice": 20000,
+    "Seller": "tom",
+    "AuctionEnd": "2024-07-30T18:17:16Z",
+    "Item": {
+      "Make": "Audi",
+      "Model": "TT",
+      "Color": "Black",
+      "Mileage": 25400,
+      "Year": 2020,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Sleek and sophisticated, this black Audi TT combines sporty elegance with cutting-edge technology, delivering a thrilling driving experience with every mile."
+    }
+  },
+  {
+    "Id": "3659ac24-29dd-407a-81f5-ecfe6f924b9b",
+    "Status": "Live",
+    "ReservePrice": 20000,
+    "Seller": "bob",
+    "AuctionEnd": "2024-10-20T10:09:08Z",
+    "Item": {
+      "Make": "Ford",
+      "Model": "Model T",
+      "Color": "Rust",
+      "Mileage": 150150,
+      "Year": 1938,
+      "ImageUrl": "/assets/upload/98751619-0637-4791-b910-c68e90b90118.jpg",
+      "Description": "Step back in time with this vintage Ford Model T in rustic charm, a testament to automotive history and a reminder of the pioneering spirit that shaped the modern world."
+    }
+  }
+]

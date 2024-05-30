@@ -1,0 +1,73 @@
+# .NET Core / .NET Standard
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.exe.config
+*.deps.json
+*.runtimeconfig.json
+
+# public folder
+upload/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Oo]bj/
+[Bb]in/
+[Nn]ode_modules/
+[Ll]og/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.sln.docstates
+*.userprefs
+*.vscode/
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+
+# MSTest
+*.trx
+
+# Resharper
+_ReSharper*/
+*.resharper*
+*.DotSettings.user
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocFX
+_docfx/
+
+# Build worker
+_WorkItems/
+
+# StyleCop
+StyleCopReport.xml
+
+# Files and directories to ignore when publishing a project
+*.Publish.xml
+*.pubxml
+*.pubxml.*
+*.publishproj
+*.publishsettings
+
+# ignore production secrets file
+appsettings.Production.json
