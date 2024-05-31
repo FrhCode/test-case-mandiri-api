@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddCors(options =>
 {
 	options.AddPolicy("CorsPolicy", builder => builder
-				.WithOrigins("http://localhost:3000")
+				.WithOrigins("http://localhost:3000", "https://mandiri-ui.farhandev.cloud")
 			 	.AllowAnyHeader()
 			 	.AllowAnyMethod()
 			 	.AllowCredentials()
