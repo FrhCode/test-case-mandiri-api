@@ -44,5 +44,21 @@ public static class Config
 						AccessTokenLifetime = 3600 * 24 * 30,
 						AlwaysIncludeUserClaimsInIdToken = true,
 					},
+					new Client
+					{
+						ClientId = "nextAppProd",
+						ClientName = "nextAppProd",
+						ClientSecrets = {
+							new Secret("NotASecretProd".Sha256())
+						},
+						AllowedGrantTypes = GrantTypes.CodeAndClientCredentials ,
+						RequirePkce = false,
+						RedirectUris = { "https://mandiri-ui.farhandev.cloud/api/auth/callback/duende-identity-server6" },
+						AllowOfflineAccess = true,
+						AllowedScopes = { "openid", "profile", "auctionApp"},
+						// 30 days
+						AccessTokenLifetime = 3600 * 24 * 30,
+						AlwaysIncludeUserClaimsInIdToken = true,
+					},
 			];
 }
