@@ -1,9 +1,13 @@
 ﻿using Duende.IdentityServer.Models;
+using IdentityService.Configuration;
+using Microsoft.Extensions.Options;
 
 namespace IdentityService;
 
 public static class Config
 {
+	// IConfiguration
+
 	public static IEnumerable<IdentityResource> IdentityResources =>
 			[
 						new IdentityResources.OpenId(),
@@ -15,45 +19,34 @@ public static class Config
 						new ApiScope("auctionApp", "Auction App API"),
 			];
 
-	public static IEnumerable<Client> Clients =>
-			[
+	public static IEnumerable<Client> Get(WebApplicationBuilder builder)
+	{
+
+		PostManClientConfig postManClientConfig = builder.Configuration.GetSection("Client:PostMan").Get<PostManClientConfig>();
+		NextAppClientConfig nextAppClientConfig = builder.Configuration.GetSection("Client:NextApp").Get<NextAppClientConfig>();
+
+		return [
 					new Client{
-						ClientId = "postman",
-						ClientName = "Postman Client",
+						ClientId = postManClientConfig.ClientId,
+						ClientName = "postman",
 						AllowedScopes = { "openid", "profile", "auctionApp"},
-						RedirectUris = { "https://www.getpostman.com/oauth2/callback" },
+						RedirectUris = { postManClientConfig.RedirectUris },
 						ClientSecrets = [
-							new Secret("NotASecret".Sha256())
+							new Secret(postManClientConfig.ClientSecrets.Sha256())
 						],
 						AllowedGrantTypes = { GrantType.ResourceOwnerPassword },
 					},
 					// for web app
 					new Client
 					{
-						ClientId = "nextApp",
+						ClientId = nextAppClientConfig.ClientId,
 						ClientName = "nextApp",
 						ClientSecrets = {
-							new Secret("NotASecret".Sha256())
+							new Secret(nextAppClientConfig.ClientSecrets.Sha256())
 						},
 						AllowedGrantTypes = GrantTypes.CodeAndClientCredentials ,
 						RequirePkce = false,
-						RedirectUris = { "http://localhost:3000/api/auth/callback/duende-identity-server6" },
-						AllowOfflineAccess = true,
-						AllowedScopes = { "openid", "profile", "auctionApp"},
-						// 30 days
-						AccessTokenLifetime = 3600 * 24 * 30,
-						AlwaysIncludeUserClaimsInIdToken = true,
-					},
-					new Client
-					{
-						ClientId = "nextAppProd",
-						ClientName = "nextAppProd",
-						ClientSecrets = {
-							new Secret("NotASecretProd".Sha256())
-						},
-						AllowedGrantTypes = GrantTypes.CodeAndClientCredentials ,
-						RequirePkce = false,
-						RedirectUris = { "https://mandiri-ui.farhandev.cloud/api/auth/callback/duende-identity-server6" },
+						RedirectUris = { nextAppClientConfig.RedirectUris },
 						AllowOfflineAccess = true,
 						AllowedScopes = { "openid", "profile", "auctionApp"},
 						// 30 days
@@ -61,4 +54,5 @@ public static class Config
 						AlwaysIncludeUserClaimsInIdToken = true,
 					},
 			];
+	}
 }

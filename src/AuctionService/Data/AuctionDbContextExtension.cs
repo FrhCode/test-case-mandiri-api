@@ -9,13 +9,6 @@ public static class AuctionDbContextExtension
 {
 	public static void UseMigration(this WebApplication app)
 	{
-		bool isDevelopment = app.Environment.IsDevelopment();
-
-		if (!isDevelopment)
-		{
-			return;
-		}
-
 		using var serviceScope = app.Services.CreateScope();
 
 		var auctionDbContext = serviceScope.ServiceProvider.GetRequiredService<AuctionDbContext>();

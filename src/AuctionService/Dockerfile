@@ -28,4 +28,8 @@ RUN dotnet publish -c Release -o /app/src/out
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build /app/src/out .
-ENTRYPOINT [ "dotnet", "AuctionService.dll" ]
+COPY --from=build /app/src/AuctionService/wait-for-it.sh .
+
+RUN chmod +x ./wait-for-it.sh
+
+CMD ./wait-for-it.sh postgres:5432 --timeout=1 --strict -- dotnet AuctionService.dll

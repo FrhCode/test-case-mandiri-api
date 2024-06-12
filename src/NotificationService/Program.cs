@@ -6,8 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
 {
+	var origins = builder.Configuration.GetSection("Origins").Get<string[]>();
 	options.AddPolicy("CorsPolicy", builder => builder
-				.WithOrigins("http://localhost:3000", "https://mandiri-ui.farhandev.cloud")
+				.WithOrigins(origins)
 			 	.AllowAnyHeader()
 			 	.AllowAnyMethod()
 			 	.AllowCredentials()
@@ -36,9 +37,6 @@ builder.Services.AddMassTransit(x =>
 builder.Services.AddSignalR();
 
 var app = builder.Build();
-
-// end point to /test
-app.MapGet("/test", () => "Hello World");
 
 app.UseCors("CorsPolicy");
 app.MapHub<NotificationHubs>("/notificationHub");

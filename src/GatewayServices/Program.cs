@@ -19,8 +19,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 builder.Services.AddCors(options =>
 {
+	var origins = builder.Configuration.GetSection("Origins").Get<string[]>();
 	options.AddPolicy("CorsPolicy", builder => builder
-				.WithOrigins("http://localhost:3000", "https://mandiri-ui.farhandev.cloud")
+				.WithOrigins(origins)
 			 	.AllowAnyHeader()
 			 	.AllowAnyMethod()
 			 	.AllowCredentials()

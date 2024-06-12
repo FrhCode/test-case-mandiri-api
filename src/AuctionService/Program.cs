@@ -23,6 +23,7 @@ builder.Services.AddDbContext<AuctionDbContext>(options =>
 });
 
 builder.Services.AddAutoMapper(typeof(MappingProfiles));
+
 builder.Services.AddMassTransit(x =>
 {
 
